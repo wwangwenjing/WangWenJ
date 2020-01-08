@@ -1,0 +1,304 @@
+/* 头部背景样式 */
+.topnav {
+    width:100% ;
+    height:251px ;
+    background-image:url(../upload/hongse.jpg);
+}
+.topnav .container div{
+    width: 100%;
+    height:252px ;
+  }
+.topnav img:nth-child(1){
+    float: left;
+    padding-top:34px ;
+}
+.topnav a:nth-child(2) img{
+    float: right;
+    padding-top:59px ;
+}
+/* 头部背景图下搜索标题样式 */
+.toptitle{
+    width: 100%;
+    height:85px;
+    background-color:#F1EEE9;
+}
+.toptitleleft{
+    float: left;
+    height:85px ;
+    width:870px;
+    font-size: 19px;
+padding-top:6px ;
+box-sizing: border-box;
+}
+.toptitleleft a{
+    text-decoration: none;
+    margin-top: 18px;
+
+}
+.toptitleleft a:nth-child(-n+5){
+    margin-right: 66px;
+}
+.toptitleleft a:nth-last-child(-n+5){
+    margin-left: 66px;
+}
+
+.toptitleleft a:nth-child(-n+6){
+    line-height:45px ;
+}
+.toptitleleft a:hover{
+    color: #CD0100;
+}
+.toptitleright{
+    float: right;
+    display: block;
+    width:100px ;
+    height:85px ;
+    text-align: center;
+    padding-top:10px ;
+    box-sizing: border-box;
+}
+.toptitleright a{
+    float: right;
+    display: block;
+    margin-right:9px;
+    width:89px ;
+    height:29px ;
+    margin-left:42px ;
+
+}
+.toptitleright a:nth-child(1){
+    margin-bottom:10px;
+}
+/* 学习强国标题 */
+.china-study {
+    width: 100%;
+    height: 65px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.china-study a {
+    color: #666666;
+    font-size: 14px;
+}
+/* 十九大报告 */
+.nineteen-box {
+    width: 100%;
+    height: 48px;
+}
+.nineteen-box p:nth-child(1) {
+    width:6px ;
+    height:33px ;
+    background-color: #D30000;
+}
+.nineteen-box h1 {
+    font-size: 27px;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+
+}
+.nineteen-box p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+.picture-box {
+width: 100%;
+height: 362px;
+margin-top: 30px;
+
+}
+.picture-box ul {
+    position: absolute;
+    top: 291px;
+    right: 19px;
+    width: 523px;
+    height: 30px;
+    /* border: 1px solid #cccccc; */
+}
+.picture-box ul li {
+    float: left;
+    width: 104px;
+    height: 30px;
+    border: 1px solid #B84B3F;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 3px 3px 5px #56362B;
+}
+.picture-box ul li:nth-child(-n+3) {
+    margin-right: 33px;
+}
+.list-box {
+    width: 100%;
+    height: 716px;
+    background-color: salmon;
+    margin-top: 100px;
+}
+.list-box .box-one,
+.list-box .box-two {
+    float: left;
+    width: 50%;
+    height: 388px;
+    background-color: sandybrown;
+}
+.list-box .box-one .top{
+    width: 100%;
+    height: 48px;
+    background-color: steelblue;
+}
+.list-box .box-one p:nth-child(1) {
+    width:6px ;
+    height:33px ;
+    background-color: #D30000;
+}
+.list-box .box-one h1 {
+    font-size: 27px;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+
+}
+.list-box .box-one p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+.list-box .box-one .bottom {
+    width: 100%;
+    height: 340px;
+    background-color: gold;
+    box-sizing: border-box;
+
+}
+.list-box .box-one .bottom a {
+    display: block;
+    font-size: 16px;
+    line-height:35px ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list-box .box-one .bottom a:hover {
+    color: red;
+   
+}
+.list-box .box-two p:nth-child(1) {
+    width: 6px;
+    height: 33px;
+    background-color: #D30000;
+}
+.list-box .box-two h1 {
+    font-size: 27px;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+
+}
+.list-box .box-two p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+.list-box .box-two .bottom {
+    width: 100%;
+    height: 340px;
+    background-color: gold;
+    box-sizing: border-box;
+
+}
+.list-box .box-two .bottom a {
+    display: block;
+    font-size: 16px;
+    line-height:35px ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list-box .box-two .bottom a:hover {
+    color: red;
+   
+}
+
+.list-box .box-three,
+.list-box .box-four {
+    float: left;
+    width: 50%;
+    height: 328px;
+    background-color: springgreen;
+}
+
+.list-box .box-three p:nth-child(1) {
+    width: 6px;
+    height: 33px;
+    background-color: #D30000;
+}
+.list-box .box-three h1 {
+    font-size: 27px;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+
+}
+.list-box .box-three p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+.list-box .box-three .bottom {
+    width: 100%;
+    height: 281px;
+    background-color: gold;
+    box-sizing: border-box;
+
+}
+.list-box .box-three .bottom a {
+    display: block;
+    font-size: 16px;
+    line-height:35px ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list-box .box-three .bottom a:hover {
+    color: red;
+   
+}
+
+
+.list-box .box-four p:nth-child(1) {
+    width: 6px;
+    height: 33px;
+    background-color: #D30000;
+}
+.list-box .box-four h1 {
+    font-size: 27px;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+
+}
+.list-box .box-four p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+
+.list-box .box-four .bottom {
+    width: 100%;
+    height: 281px;
+    background-color: gold;
+    box-sizing: border-box;
+
+}
+.list-box .box-four .bottom a {
+    display: block;
+    font-size: 16px;
+    line-height:35px ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list-box .box-four .bottom a:hover {
+    color: red;
+   
+}
+
