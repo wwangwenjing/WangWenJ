@@ -1,0 +1,310 @@
+/* 头部背景样式 */
+.topnav {
+    width:100% ;
+    height:251px ;
+    background-image:url(../upload/hongse.jpg);
+}
+.topnav .container div{
+    width: 100%;
+    height:252px ;
+  }
+.topnav img:nth-child(1){
+    float: left;
+    padding-top:34px ;
+}
+.topnav a:nth-child(2) img{
+    float: right;
+    padding-top:59px ;
+}
+/* 头部背景图下搜索标题样式 */
+.toptitle{
+    width: 100%;
+    height:85px;
+    background-color:#F1EEE9;
+}
+.toptitleleft{
+    float: left;
+    height:85px ;
+    width:870px;
+    font-size: 19px;
+padding-top:6px ;
+box-sizing: border-box;
+}
+.toptitleleft a{
+    text-decoration: none;
+    margin-top: 18px;
+
+}
+.toptitleleft a:nth-child(-n+5){
+    margin-right: 66px;
+}
+.toptitleleft a:nth-last-child(-n+5){
+    margin-left: 66px;
+}
+
+.toptitleleft a:nth-child(-n+6){
+    line-height:45px ;
+}
+.toptitleleft a:hover{
+    color: #CD0100;
+}
+.toptitleright{
+    float: right;
+    display: block;
+    width:100px ;
+    height:85px ;
+    text-align: center;
+    padding-top:10px ;
+    box-sizing: border-box;
+}
+.toptitleright a{
+    float: right;
+    display: block;
+    margin-right:9px;
+    width:89px ;
+    height:29px ;
+    margin-left:42px ;
+
+}
+.toptitleright a:nth-child(1){
+    margin-bottom:10px;
+}
+/* 习近平新时代中国特色社会主义思想 */
+.eight-box{
+    width:100% ;
+    height:193px ;
+}
+.eight-box-top{
+    width: 100%;
+    height:64px;
+}
+.eight-box-top p{
+    font-size:14px ;
+    padding-top:24px ;
+
+}
+.eight-box-middle{
+    width: 100%;
+    height:43px;
+}
+.eight-box-middle h1{
+    font-size:37px ;
+    color: #D30000;
+}
+.eight-box-bottom{
+    width: 100%;
+    height:88px;
+    padding-top: 42px;
+    box-sizing: border-box;
+}
+.eight-box-bottom p:nth-child(1){
+    width:6px ;
+    height:33px ;
+    background-color: #D30000;
+}
+.eight-box-bottom h1{
+    font-size:27px ;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+}
+.eight-box-bottom p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+.book{
+    overflow: hidden;
+}
+.book-topbox{
+    width: 100%;
+    height:713px ;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.book-topbox img{
+    width:1000px ;
+    height:810px ;
+}
+.book-bottombox{
+    width: 100%;
+    height:118px ;
+    padding-top:50px ;
+    box-sizing: border-box;
+}
+.book-bottombox p:nth-child(1){
+    width:6px ;
+    height:33px ;
+    background-color: #D30000;
+}
+.book-bottombox h1{
+    font-size:27px ;
+    color:#D30000 ;
+    margin-top: -31px;
+    margin-left:15px ;
+}
+.book-bottombox p:nth-last-child(1){
+    border-bottom: 1px solid #D30000;
+    margin-top:14px;
+}
+/* 十四个坚持样式 */
+.fourteen-box{
+    width: 100%;
+    height:1871px;
+    /* background-color: wheat; */
+    padding-top:31px ;
+    box-sizing: border-box;
+    margin-top: -23px;
+}
+.fourteen-box div{
+    float: left;
+    width:489px ;
+    height:250px ;
+    border: 1px solid #D30000;
+    margin-bottom:15px ;
+    border-radius: 10px 10px 10px 10px;
+    padding-top:17px ;
+    padding-left:10px ;
+    box-sizing: border-box;
+
+}
+.fourteen-box div:nth-child(2n-1){
+    margin-right:22px ;
+}
+.fourteen-box div p{
+    font-size:16px ;
+    line-height: 25px;
+}
+.fourteen-box div p:hover{
+    color: red;
+}
+.important-box{
+    width: 100%;
+    height:1297px ;
+    overflow: hidden;
+}
+.important-box div {
+    float: left;
+    width:320px ;
+    height:434px ;
+}
+.important-box div:nth-child(-n+2){
+    margin-right: 17px;
+}
+.important-box div:nth-child(4),
+.important-box div:nth-child(5){
+    margin-right: 17px;
+ 
+}
+.important-box div:nth-child(7),
+.important-box div:nth-child(8){
+    margin-right: 17px;
+ 
+}
+.important-box div .important-box-top{
+    width: 100%;
+    height:91px ;
+    border-bottom: 1px solid red;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.important-box div .important-box-bottom{
+    width: 100%;
+    height:342px;
+}
+.important-box-top h1{
+    float: left;
+    font-size:27px ;
+    color:#D30000 ;
+    border-left: 5px solid #D30000;
+    height:33px ;
+    padding-left: 6px;
+}
+.important-box-top a{
+    float: right;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #888888;
+}
+.important-box-top a:hover{
+    color: red;
+}
+.important-box-bottom{
+    padding-top: 29px;
+    box-sizing: border-box;
+
+}
+.important-box-bottom a{
+    display: block;
+    font-size: 16px;
+    line-height:35px ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.important-box-bottom a:hover{
+    color: red;
+}
+/* 友情链接样式 */
+.friendlybox{
+    width: 100%;
+    height:190px ;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top:49px ;
+}
+.friendlybox .left{
+    float: left;
+    width:111px ;
+    height: 137px;
+    border-right: 1px solid #cccccc;
+    margin-top: 27px;
+}
+.friendlybox .left p{
+    font-size:18px ;
+}
+.friendlybox .right{
+    float: right;
+    width:888px ;
+    height: 190px;
+    padding-top:20px;
+    box-sizing: border-box;
+    padding-left:24px ;
+}
+.friendlybox .right a{
+    font-size: 15px;
+    margin-right:25px ;
+    line-height: 31px;
+}
+.endpicture .endbox{
+    width:100% ;
+    height:118px ;
+}
+.endbox img:nth-child(1){
+
+    margin-left: 425px;
+    margin-top: 27px;
+}
+.endbox a:nth-child(2) img {
+    margin-left: 10px ;
+    margin-top: 32px;
+}
+.finally{
+    width: 100%;
+    height:152px ;
+    text-align: center;
+}
+.finally p:nth-child(-n+4) a{
+    font-size: 16px;
+}
+.finally p:nth-child(-n+5) a:nth-child(1){
+    margin-right:17px ;
+}
+.finally p:nth-child(-n+5) a{
+        line-height: 29px;
+}
+.finally p:nth-last-child(1) a{
+    color: #979797;
+    font-size: 14px;
+}
+
